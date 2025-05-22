@@ -1,3 +1,7 @@
+.main{
+    position: relative;
+    background-color: black;
+}
 body {
     font-size: 15pt;
 }
@@ -28,7 +32,7 @@ align-items: center;
     background-color:black ;
     transition: ease 0.4s;
     z-index: -1;
-    border-radius: 30%;
+    border-radius: 20%;
     
 } 
 a{
@@ -255,6 +259,11 @@ font-weight: 500;
     }
     
 }
+.page3{
+    min-height: 100vh;
+    width: 100%;
+    
+}
 .elem{
     height: 5vw ;
     width: 100%;
@@ -303,4 +312,99 @@ font-weight: 500;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     
 }
-  
+#feature{
+    padding: 2vw;
+}
+.elem h2{
+    position: relative;
+    display: flex;
+}
+.elem-right{
+    position: absolute;
+    right: 0;
+    padding: 0 2vw;
+}
+.name{
+    text-align: right;
+    font-weight: 600;
+    font-size: 3vw;
+}
+
+.btn2{
+    position: relative;
+    width: 15vw;
+margin-left: 2vw;
+border: 1px solid black;
+padding: 1vw;
+border-radius: 20px;
+overflow: hidden;
+margin-top: 3vw;
+}
+.btn2:hover .black{
+    
+    bottom: 0;
+    left: 0;
+}
+.btn2:hover a{
+    color: #fff;
+}
+.page4{
+    min-height: 100vh;
+    background-color: #000;
+    color: #fff;
+    padding: 2vw;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    
+}
+.page4-left{
+    padding: 5vw;
+}
+.title-text{
+margin-left: 10vw;
+    border-left: 3px solid grey;
+    padding:1vw ;
+}
+.title-text h3{
+    padding: 1vw;
+}
+
+.title-text h3:hover{
+    font-size: 3.5vw;
+    border-left:2px solid orange;
+}
+.page4-right img{
+    height: 100vh;
+    border-radius: 200px;
+    background-position: center;
+    background-origin: cover;
+    
+}
+.page5{
+    height: 60vh;
+    width: 100%;
+    background-color: white;
+}
+.page5 h4{
+    margin-top: 100px;
+}
+
+.work{
+    display: flex;
+    overflow-y: scroll;
+    margin-top: 50px;
+    
+}
+.card{
+    min-width: 30vw;
+    overflow-x: scroll;
+    padding: 2vw;
+    border-right: 1px solid grey;
+}
