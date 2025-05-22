@@ -21,3 +21,14 @@ elems.forEach((ele) => {
     console.log(image)
   });
 });
+/*  to update the text in page 4*/
+
+let title = document.querySelectorAll('#para');
+let para = document.querySelector('.info-text');
+
+title.forEach((e) => {
+  e.addEventListener('mouseenter', function() {
+    let text = e.getAttribute("data-text");
+   para.innerText=text;
+  });
+});
